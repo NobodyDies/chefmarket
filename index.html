@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Корзина ШефМаркет</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Корзина ШефМаркет</a>
+      <div class="cart">
+        <div>Товаров: 0 на сумму 0 рублей.</div><a class="open-cart waves-effect waves-light btn-flat modal-trigger" href="#modal1">Перейти в корзину</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <ul class="collection">
+      <li class="collection-item">
+        <div class="item">
+          <h1>Тирамису</h1>
+          <a class="add-to-cart" data-price="150">Добавить в корзину</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Окно Корзины-->
+  <div id="modal1" class="modal modal-cart">
+    <div class="modal-content">
+      <h4>Корзина</h4>
+      <table>
+        <thead>
+          <tr>
+            <td>Название</td>
+            <td>Стоимость</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Название</td>
+            <td>Стоимость</td>
+            <td><a href="#!" class="delete btn"><i class="material-icons">delete</i></a></td>
+          </tr>
+          <tr>
+            <td>Название</td>
+            <td>Стоимость</td>
+            <td><a href="#!" class="delete btn"><i class="material-icons">delete</i></a></td>
+          </tr>
+          <tr>
+            <td>Название</td>
+            <td>Стоимость</td>
+            <td><a href="#!" class="delete btn"><i class="material-icons">delete</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Товаров: 0 на сумму 0 рублей.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Закрыть</a>
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Заказать</a>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+  <script src="https://fb.me/react-0.14.7.js"></script>
+  <script src="https://fb.me/react-dom-0.14.7.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
