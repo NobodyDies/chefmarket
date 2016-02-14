@@ -5,15 +5,20 @@
   .cart .open-cart {
     color: #ffffff; }
 
-.modal-cart .delete {
-  background-color: #c62828; }
+.modal-cart {
+  color: #000000; }
+  .modal-cart .delete {
+    background-color: #c62828; }
+    .modal-cart .delete i {
+      font-size: 1.3rem;
+      line-height: inherit; }
 
 .item {
   position: relative; }
   .item h1 {
     font-size: 22px;
     margin: 0; }
-  .item .add-to-cart {
+  .item .add-to-cart, .item .open-cart {
     position: absolute;
     right: 0;
     top: 0;
